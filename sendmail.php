@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $captcha = $_POST['g-recaptcha-response'];
 
     // Set up the email headers
-    $to = "musamarazzak7@gmail.com";
+    $to = "info@dreamxsol.com";
     $subject = "$subject $name";
     $headers = "From: $email\r\n" .
                "Reply-To: $email\r\n" .
